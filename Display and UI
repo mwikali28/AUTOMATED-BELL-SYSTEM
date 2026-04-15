@@ -1,0 +1,15 @@
+#include "display_ui.h"
+#include <Adafruit_ST7735.h>
+
+extern Adafruit_ST7735 tft;  // Shared from main
+
+void updateDisplay(int hour, int minute, int second, 
+                   int mode, int nextHour, int nextMinute, 
+                   const char* nextEvent) {
+    tft.fillScreen(ST77XX_BLACK);
+    
+    // Time display (large)
+    tft.setTextSize(2);
+    tft.setCursor(0, 12);
+    // ... formatting logic
+}
