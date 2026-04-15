@@ -63,7 +63,9 @@ Uncomment this line in setup(), upload once, then re-comment:
 HOW TO USE
 
 Normal operation-Bell rings automatically at scheduled times
+
 Press button (idle)	-Manual ring for 2 seconds
+
 Press button (ringing)-	Stops bell immediately
 
 
@@ -72,9 +74,13 @@ Press button (ringing)-	Stops bell immediately
 TROUBLESHOOTING
 
 No display-Check INITR_MINI160x80 in tft.initR()
+
 Wrong time-Replace RTC battery (CR2032)
+
 RTC error	-Add 4.7kΩ pull-ups on SDA/SCL
+
 Button not working	-Check GND connection
+
 No buzzer-Check polarity (+ to GPIO25)
 
 
