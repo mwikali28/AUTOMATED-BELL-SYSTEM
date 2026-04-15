@@ -1,4 +1,4 @@
-// Member 3: Scheduling Logic
+// Mercelline wambui: Scheduling Logic
 #include "scheduler.h"
 
 BellEvent schedule[] = {
