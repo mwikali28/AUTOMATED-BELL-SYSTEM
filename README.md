@@ -1,9 +1,9 @@
+AUTOMATED BELL SYSTEM
 
-Automated School Bell System
-
-ESP32-based automatic bell system for schools with RTC, display, and manual button control.
+This is a ESP32-based automatic bell system for schools with RTC, display, and manual button control.
 
 Quick Hardware Connections
+
 ESP32	Component	Pin
 GPIO5	ST7735	CS
 GPIO16	ST7735	RST
@@ -15,7 +15,7 @@ GPIO22	DS3231M	SCL
 GPIO25	Buzzer	(+)
 GPIO26	Button	One leg
 3.3V	Display/RTC	VCC
-GND	All	GND
+GND	    All	GND
 
 FEATURES
 
